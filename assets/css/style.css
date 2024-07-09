@@ -1,0 +1,42 @@
+/* CSS GLOBAL */
+
+@import "./global/style.css";
+
+/* CSS HEADER */
+
+@import "./header/style.css";
+
+/* CSS MAIN */
+
+@import "./main/style.css";
+
+
+/* CSS FOOTER */
+@import "./footer/style.css";
+
+@media (max-width:940px) {
+    .about{
+        flex-direction: column;
+        height: auto;
+    }
+    .about div{
+        max-width: 90%;
+    }
+    .about img{
+        width: 250px;
+    }
+    
+}
+
+@media (max-width:720px) {
+    .projects{
+        height: auto;
+    }
+    .project-card{
+        width: 250px;
+    }
+    ..project-list{
+        flex-wrap: wrap;
+    }
+    
+}

@@ -1,0 +1,27 @@
+.nav{
+    background-color: #181818;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 1;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    margin-right: 28px;
+    list-style: none;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color:#ddd;
+    padding:20px;
+    text-transform: capitalize;
+    transition: all 0.2s ease-in;
+}
+
+.nav-list a:hover{
+    color:#fff;
+}
